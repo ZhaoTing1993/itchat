@@ -28,7 +28,7 @@ class WxRobot(object):
 
     def run(self):
         self.dispatch()
-        self.wx.auto_login(hotReload=True)
+        self.wx.auto_login(hotReload=True,enableCmdQR=True)
         self.wx.run()
 
 

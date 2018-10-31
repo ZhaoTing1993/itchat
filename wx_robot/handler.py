@@ -55,7 +55,7 @@ class TuringHandler(object):
         if msg.text.strip().lower() == 'robot':
             self.userConf.setdefault(uid, 1)
             print "user[%s] registered robot" % uid
-            return u'成功开启AI'
+            return u'成功开启人工智障'
 
         if msg.text.strip().lower() == 'shut up':
             self.userConf.setdefault(uid + "SHUT", 1)
